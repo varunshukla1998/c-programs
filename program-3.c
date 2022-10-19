@@ -1,5 +1,6 @@
 #include<stdio.h>
-void main(){
+void main()
+{
 	int num1, num2, ans;
 	
 	num1 = 30;
