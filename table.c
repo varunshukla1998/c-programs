@@ -8,6 +8,8 @@ void main()
 	printf("\n \t Enter Number : ");
 	scanf("%d", &num);
 	
+	printf("\n \t Table of %d is as below... \n",num);
+	
 	for(i=1; i<=10 ;i++)
 	{
 		ans= num*i;

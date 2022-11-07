@@ -11,7 +11,6 @@ void main()
 	for(i=1; i<=n ;i++)
 	{
 		sum+=i;
-		//printf("\n \t Sum of %d is : %d", n,sum);
 	}
 		
 	// Printing Output to console / User
