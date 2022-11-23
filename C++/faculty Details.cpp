@@ -10,6 +10,8 @@ class faculty
 	
 	void inputdata()
 	{
+		fflush(stdin);
+		
 		cout<<"Enter Faculty ID : ";
 		cin>>id;
 		
@@ -29,9 +31,9 @@ class faculty
 	{
 		cout<<"\nFaculty Id : "<<id;
 		
-		cout<<"\nFaculty Name : "<<name;
-		
 		cout<<"\nFaculty Contact : "<<contact;
+		
+		cout<<"\nFaculty Name : "<<name;
 		
 		cout<<"\nFaculty Email : "<<mail;
 	}
